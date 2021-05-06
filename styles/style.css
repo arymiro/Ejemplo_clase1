@@ -8,7 +8,7 @@
 /* etiqueta con el nombre de la etiqueta*/
 
 body{
-    background: blue;
+    background: blueviolet;
     color: #fff;
 }
 
@@ -21,12 +21,30 @@ header{
 }
 
 .contenedor{
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
+    border: 5px dashed red;
+
 }
 
 .contenido-titulo h1{
-    font-size: 48px;
+    text-align: center;
+    font-size: 40px;
     color: white;
-    border: 10px double white;
+    border: 5px double white;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.segundoborde{
+    text-align: center;
+    font-size: 40px;
+    color: yellow;
+    border: 5px solid yellow;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
